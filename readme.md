@@ -9,7 +9,6 @@ De forma leve e divertida, o jogo ensina a separar resíduos corretamente e a re
 
 ### ♻️ Misturamos tudo num saco só
 Ainda temos o costume de jogar tudo junto: resto de comida, garrafa pet, caixa de papelão, pilha… tudo no mesmo saco.  
-Isso dificulta a coleta seletiva, impede a reciclagem do que poderia ser reaproveitado e ainda enche desnecessariamente os aterros sanitários.
 
 ### ⏰ Colocamos o lixo fora na hora errada
 Muitas vezes deixamos o lixo na calçada fora do horário certo da coleta pública.  
@@ -18,17 +17,16 @@ Resultado: sacos ficam horas ou dias expostos, e aí aparecem cães, gatos, urub
 ---
 
 ## 💡 Solução proposta
-Criação de um quiz interativo e divertido, que ajuda a ensinar ou relembrar:
+Criação de um quiz interativo e divertido, que informa e incentiva:
 - Como separar cada tipo de resíduo corretamente.
 - Por que respeitar o horário da coleta.
 
-A cada pergunta, você aprende algo novo, reflete sobre os erros e ainda pode disputar o ranking dos mais conscientes do prédio.
+A cada pergunta, reflete sobre os erros e ainda pode disputar o ranking dos mais conscientes do prédio.
 
 ---
 
 ## 🤔 Por que fazer isso?
-Essa ideia nasceu da vontade de deixar a nossa rua mais limpa, bonita e organizada, e incentivar todo mundo aqui a ter atitudes mais sustentáveis no dia a dia.  
-Não é nada complicado: só mudar pequenos hábitos já faz uma diferença enorme.
+Essa ideia nasceu da vontade de deixar o nosso lixeiro mais limpo e organizado.
 
 ---
 
@@ -38,6 +36,6 @@ Somos só cinco, mas cada um fazendo a sua parte ajuda a manter o nosso cantinho
 
 ---
 
-## 🎮 Bora jogar, aprender e deixar a rua mais limpa?
+## 🎮 Vamos jogar!
 
 ---
