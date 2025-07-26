@@ -42,8 +42,8 @@ O jogo só substitui sua pontuação se ela for maior que a anterior.
 
 Você responderá 8 perguntas, cada pergunta com 4 alternativas e um cronômetro regressivo de 20 segundos por pergunta.
 Clique na resposta que você achar correta:
--Se acertar, a alternativa ficará verde ✅ e você ganha 1 ponto.
--Se errar, sua resposta ficará vermelha ❌.
+- Se acertar, a alternativa ficará verde ✅ e você ganha 1 ponto.
+- Se errar, sua resposta ficará vermelha ❌.
 Em caso de erro, uma explicação educativa será exibida.
 
 Após responder todas as perguntas, o jogo mostrará sua pontuação final.
