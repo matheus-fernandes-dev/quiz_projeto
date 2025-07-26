@@ -51,3 +51,23 @@ O jogo só substitui sua pontuação se ela for maior que a anterior.
 Você também pode conferir em "Saiba Mais", informações sobre coleta no site da prefeitura de Paulista-PE.
 
 ---
+
+## Print das telas
+Confira os prints das telas no arquivo PDF abaixo:
+
+📄 
+
+
+---
+
+## 🛠️ Tecnologias utilizadas
+Este projeto foi desenvolvido com: 
+- Python. Linguagem principal para o desenvolvimento do projeto.
+- Tkinter. Para a criação da interface gráfica do quiz.
+- PIL (Pillow). Usada para carregamento e redimensionamento das imagens dentro da interface.
+- JSON. Armazenamento dos dados de pontuação e ranking dos jogadores.
+- OS. Para auxiliar na criação do arquivo json.
+- Webbrowser. Utilizada para abertura do link informativo da prefeitura diretamente do quiz.
+- random. Uasada para embaralhar a ordem das perguntas e das alternativas.
+
+---
