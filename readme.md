@@ -52,22 +52,19 @@ Você também pode conferir em "Saiba Mais", informações sobre coleta no site 
 
 ---
 
-## Print das telas
-Confira os prints das telas no arquivo PDF abaixo:
-
-📄 
-
+## 📷 Print das telas
+Para visualizar meu projeto, confira os prints das telas na pasta "imagens_telas.
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 Este projeto foi desenvolvido com: 
-- Python. Linguagem principal para o desenvolvimento do projeto.
-- Tkinter. Para a criação da interface gráfica do quiz.
-- PIL (Pillow). Usada para carregamento e redimensionamento das imagens dentro da interface.
-- JSON. Armazenamento dos dados de pontuação e ranking dos jogadores.
-- OS. Para auxiliar na criação do arquivo json.
-- Webbrowser. Utilizada para abertura do link informativo da prefeitura diretamente do quiz.
-- random. Uasada para embaralhar a ordem das perguntas e das alternativas.
+- Python - Linguagem principal para o desenvolvimento do projeto.
+- Tkinter - Para a criação da interface gráfica do quiz.
+- PIL (Pillow) - Usada para carregamento e redimensionamento das imagens dentro da interface.
+- JSON - Armazenamento dos dados de pontuação e ranking dos jogadores.
+- OS - Para auxiliar na criação do arquivo json.
+- Webbrowser - Utilizada para abertura do link informativo da prefeitura diretamente do quiz.
+- random. - Usada para embaralhar a ordem das perguntas e das alternativas.
 
 ---
