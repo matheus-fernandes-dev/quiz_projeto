@@ -53,7 +53,7 @@ Você também pode conferir em "Saiba Mais", informações sobre coleta no site 
 ---
 
 ## 📷 Print das telas
-Para visualizar meu projeto, confira os prints das telas na pasta "imagens_telas.
+Para visualizar meu projeto, confira os prints das telas na pasta "imagens_telas".
 
 ---
 
