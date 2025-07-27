@@ -4,7 +4,7 @@ from tkinter import messagebox
 from perguntas import perguntas 
 from ranking import carregar_ranking
 import telas 
-import random 
+
 
 #VARIAVÉIS
 nome_jogador = "" 
