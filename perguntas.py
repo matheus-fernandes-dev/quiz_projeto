@@ -64,13 +64,5 @@ perguntas = [
         "Levar a um ponto de doação ou coleta.",
         "Devem ser levadas a cooperativas ou pontos de coleta específicos."
     ),
-    (
-        "O que fazer com as folhas secas das plantas no meu quintal?",
-        ["Jogar junto com o lixo comum.",
-        "Queimar as folhas secas para se livrar delas.",
-        "Utilizar como compostagem ou adubo orgânico.",
-        "Fazer um suco detox."],
-        "Utilizar como compostagem ou adubo orgânico.",
-        "Folhas secas podem ser reutilizadas para fazer compostagem."
-)
+ 
 ]
