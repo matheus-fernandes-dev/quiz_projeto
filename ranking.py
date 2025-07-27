@@ -1,6 +1,6 @@
 #IMPORTS NECESSÁRIOS
 import json 
-
+import os
 
 def salvar_ranking(nome, pontuacao):#FUNÇÃO PARA SALVAR A PONTUAÇÃO E ATUALIZAR NO RANKING
     ranking = carregar_ranking()    
