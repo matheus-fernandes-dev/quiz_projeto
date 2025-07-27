@@ -25,7 +25,7 @@ Criação de um quiz interativo e divertido, que informa e incentiva:
 ---
 
 ## 🤔 Por que fazer isso?
-Essa ideia nasceu da vontade de deixar o lixeiro do meu condomínio mais limpo e organizado.
+Essa ideia nasceu da vontade de mudar hábitos na minha família edeixar o lixeiro do meu condomínio mais limpo e organizado.
 
 ---
 
