@@ -161,5 +161,5 @@ def criar_tela_ranking(frame_anterior):#FUNÇÃO PARA EXIBIR INFORMAÇÕES DA TE
     tk.Button(frame_ranking, text="Saiba Mais", width=25, bg=cor_botao_erro, fg=cor_texto_principal,
               font=("Arial", 12, "bold"), command=abrir_site_informativo).pack(pady=10)
 
-
-
+def abrir_site_informativo(): #ABRINDO SITE 
+    webbrowser.open("https://paulista.pe.gov.br/2024/dinamico/noticia-detalhe.php?id=8413")
