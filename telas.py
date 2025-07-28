@@ -5,7 +5,7 @@ from PIL import Image, ImageTk
 import webbrowser
 from perguntas import perguntas
 from ranking import carregar_ranking, salvar_ranking
-import eco_quiz
+import main
 
 #DEFININDO CORES PARA A INTERFACE
 cor_background = "#0F7BA6"
@@ -72,9 +72,9 @@ def criar_tela_inicial(): #FUNÇÃO PARA INFORMAÇÕES NA TELA INICIAL
     entrada_nome = tk.Entry(frame_inicio, font=("Arial", 12))
     entrada_nome.pack(pady=10)
     tk.Button(frame_inicio, text="Começar", width=20, bg=cor_botao_principal, fg=cor_texto_botao,#BOTÔES DA TELA INICIAL
-              font=("Arial", 12, "bold"), command=eco_quiz.comecar_jogo).pack(pady=10)
+              font=("Arial", 12, "bold"), command=main.comecar_jogo).pack(pady=10)
     tk.Button(frame_inicio, text="Jogar Novamente", width=20, bg=cor_botao_principal, fg=cor_texto_botao,
-              font=("Arial", 12, "bold"), command=eco_quiz.iniciar_novamente_da_pergunta).pack(pady=10)
+              font=("Arial", 12, "bold"), command=main.iniciar_novamente_da_pergunta).pack(pady=10)
     tk.Button(frame_inicio, text="Ver Ranking", width=20, bg=cor_botao_principal, fg=cor_texto_botao,
               font=("Arial", 12, "bold"), command=lambda: criar_tela_ranking(frame_inicio)).pack(pady=10)
 
@@ -83,24 +83,24 @@ def criar_tela_perguntas(): #FUNÇÃO PARA EXIBIR AS INFORMAÇÕES DA TELA DE PE
     destruir_frames()
     frame_perguntas = tk.Frame(janela, bg=cor_background)
     frame_perguntas.pack(fill="both", expand=True)
-    tk.Label(frame_perguntas, text=f"Bem vindo, jogador(a) {eco_quiz.nome_jogador}!",
+    tk.Label(frame_perguntas, text=f"Bem vindo, jogador(a) {main.nome_jogador}!",
              bg=cor_background, fg=cor_texto_secundario, font=("Arial", 12, "italic")).pack(pady=12)
-    tk.Label(frame_perguntas, text=f"Pergunta {eco_quiz.indice_pergunta + 1} de {len(perguntas)}",
+    tk.Label(frame_perguntas, text=f"Pergunta {main.indice_pergunta + 1} de {len(perguntas)}",
          bg=cor_background, fg=cor_texto_principal, font=("Arial", 12, "bold")).pack(pady=5)
     cronometro_label = tk.Label(frame_perguntas, text="00:00:20", font=("Courier", 20, "bold"),
                                 bg=cor_cronometro_bg, fg=cor_cronometro_fg, width=15, pady=20)
     cronometro_label.pack(pady=20)
-    pergunta = perguntas[eco_quiz.indice_pergunta]
+    pergunta = perguntas[main.indice_pergunta]
     tk.Label(frame_perguntas, text=pergunta[0], wraplength=600, bg=cor_background, fg=cor_texto_principal,
              font=("Arial", 12, "bold")).pack(pady=20)
     botoes_resposta = []
     for i, opcao in enumerate(pergunta[1]):
         botao = tk.Button(frame_perguntas, text=opcao, wraplength=500, width=50,
                           bg=cor_botao_principal, fg=cor_texto_botao, font=("Arial", 10, "bold"),
-                          command=lambda i=i: eco_quiz.verificar_resposta(i))
+                          command=lambda i=i: main.verificar_resposta(i))
         botao.pack(pady=8)
         botoes_resposta.append(botao)
-    eco_quiz.iniciar_cronometro()
+    main.iniciar_cronometro()
 
 def criar_tela_final():#FUNÇÃO PARA EXIBIR INFORMAÇÕES DA TELA FINAL E ESTILO
     global frame_final
@@ -117,11 +117,11 @@ def criar_tela_final():#FUNÇÃO PARA EXIBIR INFORMAÇÕES DA TELA FINAL E ESTIL
         pass
     tk.Label(frame_final, text=f"Obrigado por jogar o EcoQuiz!",#TEXTOS DA TELA FINAL
              font=("Arial", 20, "bold"), bg=cor_background, fg=cor_texto_principal).pack(pady=10)
-    tk.Label(frame_final, text=f"Você conseguiu {eco_quiz.pontuacao} acertos.\n Clique em “Ver Ranking” para conferir sua posição.”\n\n“Para saber mais sobre reciclagem em nossa cidade,\n clique no botão “Saiba Mais” e acesse o site oficial da prefeitura.”",
+    tk.Label(frame_final, text=f"Você conseguiu {main.pontuacao} acertos.\n Clique em “Ver Ranking” para conferir sua posição.”\n\n“Para saber mais sobre reciclagem em nossa cidade,\n clique no botão “Saiba Mais” e acesse o site oficial da prefeitura.”",
              font=("Arial", 12, "italic"), bg=cor_background, fg=cor_texto_secundario).pack(pady=10)
-    salvar_ranking(eco_quiz.nome_jogador, eco_quiz.pontuacao)
+    salvar_ranking(main.nome_jogador, main.pontuacao)
     tk.Button(frame_final, text="Jogar Novamente", width=25, bg=cor_botao_principal, fg=cor_texto_botao,  #BOTÔES DA TELA FINAL
-              font=("Arial", 12, "bold"), command=eco_quiz.iniciar_novamente_da_pergunta).pack(pady=10)
+              font=("Arial", 12, "bold"), command=main.iniciar_novamente_da_pergunta).pack(pady=10)
     tk.Button(frame_final, text="Ver Ranking", width=25, bg=cor_botao_principal, fg=cor_texto_botao,
               font=("Arial", 12, "bold"), command=lambda: criar_tela_ranking(frame_final)).pack(pady=10)
     tk.Button(frame_final, text="Início", width=25, bg=cor_botao_principal, fg=cor_texto_botao,
@@ -144,7 +144,7 @@ def criar_tela_ranking(frame_anterior):#FUNÇÃO PARA EXIBIR INFORMAÇÕES DA TE
         pass
     ranking = carregar_ranking()
     if not ranking:
-        tk.Label(frame_ranking, text="Ranking ainda não possui informações.", #VERIFIAÇÃO, CASO O RANKING ESTEJA VAZIO
+        tk.Label(frame_ranking, text="Ranking ainda não possui informações.", #VERIFICAÇÃO, CASO O RANKING ESTEJA VAZIO
                  font=("Arial", 12), bg=cor_background, fg=cor_texto_principal).pack()
     else:
         ranking_ordenado = sorted(ranking, key=lambda x: x["pontuacao"], reverse=True)#MOSTRANDO O RANKING
