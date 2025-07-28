@@ -6,7 +6,7 @@ from ranking import carregar_ranking
 import telas 
 import random 
 
-#VARIAVÉIS
+#VARIAVÉIS PARA ARMAZENAR INFORMAÇÕES IMPORTANTES
 nome_jogador = "" 
 tempo_restante = 20 
 indice_pergunta = 0 
