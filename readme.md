@@ -1,4 +1,4 @@
-Projeto realizado como atividade do primeiro período do curso de Análise e desenvolvimento de Sistemas, ofertado pelo Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco e elaborado por Matheus Fernandes.
+Projeto realizado como atividade do primeiro período do curso de Análise e desenvolvimento de Sistemas, ofertado pelo Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco. 
 
 ## 📝 Descrição
 Um quiz educativo para conscientizar os moradores do meu condomínio sobre o descarte correto do lixo.  
