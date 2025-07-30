@@ -1,0 +1,14 @@
+# Ignorar pastas e arquivos Python compilados
+__pycache__/
+*.pyc
+
+# Ignorar arquivos temporários e logs
+*.log
+*.tmp
+
+# Ignorar configurações locais do VS Code
+.vscode/
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
