@@ -53,6 +53,31 @@ Você também pode conferir em "Saiba Mais", informações sobre coleta no site 
 
 ---
 
+## 👥  Teste com família e vizinhos
+Estou utilizando o quiz com meus familiares e levando meu próprio computador até a casa de vizinhos do meu condomínio para aplicar o teste diretamente com eles.  
+Esse processo tem sido extremamente enriquecedor, pois permitiu observar como diferentes pessoas interagem com o sistema, mesmo aquelas com pouco contato com tecnologia.
+
+Essa fase tem contribuído diretamente para:
+- Motivar a mudança sobre o descarte do lixo no nosso condomínio,
+- Receber sugestões de melhorias,
+- Melhorar a relação na vizinhança.
+
+## Ao acompanhar de perto as reações, estruturei informações de alguns moradores sobre o meu projeto (2 de 5):
+
+🧍 Vizinho 1:
+- Relação com a causa ambiental: Muito engajado no descarte do lixo.
+- Dificuldade ao responder o quiz: Leitura de algumas frases no quiz.
+- Comportamento ao fazer o quiz: Identificou nas perguntas, as atitudes de alguns vizinhos.
+- Reclamação: Comentou que um vizinho vive jogando o lixo na calçada e que eu deveria ir fmostrar o projeto a ele.
+
+🧍 Vizinho 2:
+- Relação com a causa ambiental: Não engajado, mas preocupado.
+- Dificuldade ao responder o quiz: Tamanho da fonte e pediu mais perguntas.
+- Comportamento ao fazer o quiz: Se identificou com algumas perguntas do quis.
+- Reclamação: Reclamou de um vizinho e das próprias atitudes. Falou sobre como o lixeiro do condomínio não é muito cuidado.
+
+---
+
 ## 📷 Print das telas
 Para visualizar meu projeto, confira os prints das telas na pasta "imagens_telas".
 
