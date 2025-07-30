@@ -19,7 +19,8 @@ Resultado: sacos ficam horas ou dias expostos, e aí aparecem cães, gatos, urub
 ---
 
 ## 💡 Solução proposta
-Esse projeto nasceu da vontade de mudar hábitos na minha família e vizinhos para deixar o lixeiro do meu condomínio mais limpo e organizado.  
+Esse projeto nasceu da vontade de mudar hábitos na minha família e vizinhos para deixar o lixeiro do meu condomínio mais limpo e organizado.
+
 Consiste na criação de um quiz interativo e divertido, que informa e incentiva:
 - Como separar cada tipo de resíduo corretamente.
 - Por que respeitar o horário da coleta.
@@ -45,7 +46,8 @@ Você também pode conferir em "Saiba Mais", informações sobre coleta no site 
 ---
 
 ## 👥  Teste com família e vizinhos
-Estou utilizando o quiz com meus familiares e levando meu próprio computador até a casa de vizinhos do meu condomínio para aplicar o teste diretamente com eles.  
+Estou utilizando o quiz com meus familiares e levando meu próprio computador até a casa de vizinhos do meu condomínio para aplicar o teste diretamente com eles.
+
 Esse processo tem sido extremamente enriquecedor, pois permitiu observar como diferentes pessoas interagem com o sistema, mesmo aquelas com pouco contato com tecnologia.
 
 Essa fase tem contribuído diretamente para:
