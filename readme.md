@@ -66,14 +66,12 @@ Essa fase tem contribuído diretamente para:
 
 🧍 Vizinho 1:
 - Relação com a causa ambiental: Muito engajado no descarte do lixo.
-- Dificuldade ao responder o quiz: Leitura de algumas frases no quiz.
 - Comportamento ao fazer o quiz: Identificou nas perguntas, as atitudes de alguns vizinhos.
-- Reclamação: Comentou que um vizinho vive jogando o lixo na calçada e que eu deveria ir fmostrar o projeto a ele.
+- Reclamação: Comentou que um vizinho vive jogando o lixo na calçada e que eu deveria ir mostrar o projeto a ele.
 
 🧍 Vizinho 2:
 - Relação com a causa ambiental: Não engajado, mas preocupado.
-- Dificuldade ao responder o quiz: Tamanho da fonte e pediu mais perguntas.
-- Comportamento ao fazer o quiz: Se identificou com algumas perguntas do quis.
+- Comportamento ao fazer o quiz: Se identificou com algumas perguntas do quiz.
 - Reclamação: Reclamou de um vizinho e das próprias atitudes. Falou sobre como o lixeiro do condomínio não é muito cuidado.
 
 ---
