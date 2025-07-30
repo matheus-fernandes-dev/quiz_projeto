@@ -19,19 +19,10 @@ Resultado: sacos ficam horas ou dias expostos, e aí aparecem cães, gatos, urub
 ---
 
 ## 💡 Solução proposta
-Criação de um quiz interativo e divertido, que informa e incentiva:
+Esse projeto nasceu da vontade de mudar hábitos na minha família e vizinhos para deixar o lixeiro do meu condomínio mais limpo e organizado.  
+Consiste na criação de um quiz interativo e divertido, que informa e incentiva:
 - Como separar cada tipo de resíduo corretamente.
 - Por que respeitar o horário da coleta.
-
----
-
-## 🤔 Por que fazer isso?
-Essa ideia nasceu da vontade de mudar hábitos na minha família e deixar o lixeiro do meu condomínio mais limpo e organizado.
-
----
-
-## 👥 Público-alvo
-Esse projeto foi pensado para a minha família e moradores do meu condomínio.  
 
 ---
 
@@ -62,7 +53,7 @@ Essa fase tem contribuído diretamente para:
 - Receber sugestões de melhorias,
 - Melhorar a relação na vizinhança.
 
-## Ao acompanhar de perto as reações, estruturei informações de alguns moradores sobre o meu projeto (2 de 5):
+Ao acompanhar de perto as reações, estruturei informações de alguns moradores sobre o meu projeto (2 de 5):
 
 🧍 Vizinho 1:
 - Relação com a causa ambiental: Muito engajado no descarte do lixo.
