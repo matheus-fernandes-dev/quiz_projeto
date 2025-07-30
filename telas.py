@@ -149,8 +149,8 @@ def criar_tela_ranking(frame_anterior):#FUNÇÃO PARA EXIBIR INFORMAÇÕES DA TE
     else:
         ranking_ordenado = sorted(ranking, key=lambda x: x["pontuacao"], reverse=True)#MOSTRANDO O RANKING
         for i, jogador in enumerate(ranking_ordenado):
-            emoji = "🥇" if i == 0 else "🥈" if i == 1 else "🥉" if i == 2 else ""
-            texto = f"{emoji} {jogador['nome']} - {jogador['pontuacao']} pts"
+            posicao = "1." if i == 0 else "2." if i == 1 else "3." if i == 2 else ""
+            texto = f"{posicao} {jogador['nome']} - {jogador['pontuacao']} pts"
             tk.Label(frame_ranking, text=texto, font=("Arial", 12), 
                      bg=cor_background, fg=cor_texto_principal).pack()
     tk.Button(frame_ranking, text="Início", width=25, bg=cor_botao_principal, fg=cor_texto_botao,#BOTÕES DA TELA RANKING
