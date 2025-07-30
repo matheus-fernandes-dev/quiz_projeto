@@ -57,12 +57,12 @@ Essa fase tem contribuído diretamente para:
 
 Ao acompanhar de perto as reações, estruturei informações de alguns moradores sobre o meu projeto (2 de 5):
 
-🧍 Vizinho 1:
+🧍 Vizinho 1 (28/07/2025):
 - Relação com a causa ambiental: Muito engajado no descarte do lixo.
 - Comportamento ao fazer o quiz: Identificou nas perguntas, as atitudes de alguns vizinhos.
 - Reclamação: Comentou que um vizinho vive jogando o lixo na calçada e que eu deveria ir mostrar o projeto a ele.
 
-🧍 Vizinho 2:
+🧍 Vizinho 2 (30/07/2025):
 - Relação com a causa ambiental: Não engajado, mas preocupado.
 - Comportamento ao fazer o quiz: Se identificou com algumas perguntas do quiz.
 - Reclamação: Reclamou de um vizinho e das próprias atitudes. Falou sobre como o lixeiro do condomínio não é muito cuidado.
